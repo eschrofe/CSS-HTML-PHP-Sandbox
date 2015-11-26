@@ -63,7 +63,15 @@ header {
     background-image: url('../images/testgrand2.png');
   width: 100%;
   margin-bottom:50px;
-  color: #999999
+  color: #AAAAAA
+}
+
+.content3 {
+  border: 1px solid #000000;
+    background-image: url('../images/testgrand3.png');
+  width: 100%;
+  margin-bottom:50px;
+  color: #AAAAAA
 }
 
 p {
