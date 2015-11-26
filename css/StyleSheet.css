@@ -60,7 +60,7 @@ header {
 
 .content2 {
   border: 1px solid #000000;
-    background-image: url('../images/testgrand2.png');
+  background-image: url('../images/testgrand2.png');
   width: 100%;
   margin-bottom:50px;
   color: #AAAAAA
@@ -68,10 +68,19 @@ header {
 
 .content3 {
   border: 1px solid #000000;
-    background-image: url('../images/testgrand3.png');
+  background-image: url('../images/testgrand3.png');
   width: 100%;
   margin-bottom:50px;
   color: #AAAAAA
+}
+
+.content4 {
+  border: 1px solid #000000;
+  background-image: url('../images/testgrand3.png');
+   background-color:#beff85;
+  width: 100%;
+  margin-bottom:50px;
+  color: #000000
 }
 
 p {
