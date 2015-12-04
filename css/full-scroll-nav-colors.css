@@ -1,0 +1,132 @@
+﻿html {
+  overflow: hidden;
+}
+
+
+body {
+  margin: 0 0;
+  overflow: auto;
+  height: 100%;
+  /*max-width: 1937px;*/
+
+}
+
+nav a:link {
+  color: #000;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+a:visited {
+  color: #254755;
+}
+
+#wrapper {
+  width: auto;
+  /*max-width: 1000px;*/
+  margin: auto;
+
+}
+
+/*header, nav, #main {
+  margin-bottom: 20px;
+}*/
+
+nav, footer {
+  padding: 10px;
+}
+
+#main, footer, header {
+  position: relative;
+}
+
+
+header {
+  background-image: url('../images/testgrand3.png');
+  top: 70px;
+  display: block;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-size:cover;
+  overflow: hidden;
+  
+}
+
+nav, .navMain {
+  background-color: green;
+  top: 0;
+  right: 17px;
+  display:block;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  background-size:cover;
+}
+.navHeader {
+    /*background-color: forestgreen*/
+
+}
+
+.navLink {
+  padding: 5px;
+}
+
+#main {
+  position:relative;
+  margin: 0 0;
+  display: block;
+}
+
+.content2, .content3, .content4, #background {
+  /*width: 100%;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+    height: 1080px;
+     background-attachment: fixed;
+}
+
+/*.content0 {
+  background-image: url('../images/testgrand6.png');
+  height: 1080px;
+  background-position: top;
+  background-position: right;
+}*/
+
+.content2 {
+   background-image: url('../images/2015-07-25 20.03.01.jpg');
+  color: #000000;
+}
+
+.content3 {
+  background-image: url('../images/2015-07-24 17.46.58.jpg');
+  color: #000000;
+}
+
+.content4 {
+  background-image: url('../images/2015-07-25 20.03.01.jpg');
+  color: #000000;
+}
+
+p {
+  font-size: 1em;
+}
+
+#background {
+  color: red;
+  font-size: 20px;
+   background-image: url('../images/2015-07-23_21.40.03.jpg');
+
+}
+
+footer {
+  min-height: 300px;
+  background-color: #000000;
+  color: #FFFFFF;
+
+}
